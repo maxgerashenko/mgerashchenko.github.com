@@ -20574,7 +20574,7 @@
 	                    _react2["default"].createElement(
 	                        "div",
 	                        { className: "info  eight columns offset-by-two columns" },
-	                        _react2["default"].createElement("img", { src: "../app/img/photo.jpg" }),
+	                        _react2["default"].createElement("img", { src: "../62482511ab93b3d057d566a2c2689928.jpg" }),
 	                        _react2["default"].createElement(
 	                            "p",
 	                            null,
