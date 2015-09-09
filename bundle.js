@@ -58,9 +58,9 @@
 
 	var _jsLayout2 = _interopRequireDefault(_jsLayout);
 
-	__webpack_require__(219);
+	__webpack_require__(220);
 
-	__webpack_require__(221);
+	__webpack_require__(222);
 
 	_react2["default"].render(_react2["default"].createElement(_jsLayout2["default"], null), document.body);
 
@@ -20574,7 +20574,11 @@
 	                    _react2["default"].createElement(
 	                        "div",
 	                        { className: "info  eight columns offset-by-two columns" },
-	                        _react2["default"].createElement("img", { src: "../62482511ab93b3d057d566a2c2689928.jpg" }),
+	                        _react2["default"].createElement(
+	                            "div",
+	                            { className: "img-wrapper" },
+	                            _react2["default"].createElement("img", { src: "../62482511ab93b3d057d566a2c2689928.jpg" })
+	                        ),
 	                        _react2["default"].createElement(
 	                            "p",
 	                            null,
@@ -20611,7 +20615,7 @@
 	var content = __webpack_require__(215);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(218)(content, {});
+	var update = __webpack_require__(219)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20636,7 +20640,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.floater {\n  float: left;\n  height: 50%;\n  width: 100%;\n  margin-bottom: -5em; }\n\n.pixel-overlay {\n  background: transparent url(" + __webpack_require__(217) + ");\n  margin: 0px;\n  padding: 0px;\n  position: fixed;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  opacity: 0.5;\n  z-index: -1; }\n\n.section-main {\n  background-color: grey;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: #FFF; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info img {\n      width: 9em;\n      border-radius: 50%;\n      border: 4px white solid; }\n    .section-main .info label {\n      font-weight: 100;\n      margin-bottom: -5px; }\n", ""]);
+	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.section-main {\n  background-color: grey;\n  background-image: url(" + __webpack_require__(217) + ");\n  background-size: cover;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .pixel-overlay {\n    background: transparent url(" + __webpack_require__(218) + ");\n    margin: 0px;\n    padding: 0px;\n    position: fixed;\n    left: 0px;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: rgba(255, 255, 255, 0.52);\n    float: left;\n    height: 50%;\n    width: 100%;\n    margin-bottom: -5em; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info .img-wrapper::before {\n      content: \"\";\n      position: absolute;\n      margin-left: -0.4em;\n      margin-top: 5em;\n      width: 10.2em;\n      height: 4.85em;\n      background-color: rgba(255, 255, 255, 0.46);\n      border-bottom-left-radius: 5em;\n      border-bottom-right-radius: 5em; }\n    .section-main .info img {\n      position: relative;\n      width: 9em;\n      border-radius: 50%;\n      border: 4px white solid; }\n    .section-main .info label {\n      font-weight: 100;\n      margin-bottom: -5px; }\n", ""]);
 
 	// exports
 
@@ -20701,10 +20705,16 @@
 /* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "93ac03377811300e6a27444abd41d804.png"
+	module.exports = __webpack_require__.p + "aab59f9bc860a1e9b25f3f2a60fa209b.jpg"
 
 /***/ },
 /* 218 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "93ac03377811300e6a27444abd41d804.png"
+
+/***/ },
+/* 219 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -20929,16 +20939,16 @@
 
 
 /***/ },
-/* 219 */
+/* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(220);
+	var content = __webpack_require__(221);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(218)(content, {});
+	var update = __webpack_require__(219)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20955,7 +20965,7 @@
 	}
 
 /***/ },
-/* 220 */
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(216)();
@@ -20969,16 +20979,16 @@
 
 
 /***/ },
-/* 221 */
+/* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(222);
+	var content = __webpack_require__(223);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(218)(content, {});
+	var update = __webpack_require__(219)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20995,7 +21005,7 @@
 	}
 
 /***/ },
-/* 222 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(216)();
