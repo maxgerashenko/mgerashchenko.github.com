@@ -20577,7 +20577,7 @@
 	                        _react2["default"].createElement(
 	                            "div",
 	                            { className: "img-wrapper" },
-	                            _react2["default"].createElement("img", { src: "../62482511ab93b3d057d566a2c2689928.jpg" })
+	                            _react2["default"].createElement("img", { src: _imgPhotoJpg2["default"] })
 	                        ),
 	                        _react2["default"].createElement(
 	                            "p",
