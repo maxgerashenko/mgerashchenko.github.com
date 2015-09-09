@@ -20587,9 +20587,9 @@
 	                                null,
 	                                "Hi, I'm Maksym Gerashchenko."
 	                            ),
-	                            " Front end software ",
+	                            " Front end software engineer.",
 	                            _react2["default"].createElement("br", null),
-	                            "engineer. Makes your ideal alive in internet"
+	                            " Makes your ideal alive in internet"
 	                        )
 	                    )
 	                )
@@ -20642,7 +20642,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.section-main {\n  background-color: grey;\n  background-image: url(" + __webpack_require__(217) + ");\n  background-size: cover;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .pixel-overlay {\n    background: transparent url(" + __webpack_require__(218) + ");\n    margin: 0px;\n    padding: 0px;\n    position: fixed;\n    left: 0px;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: rgba(255, 255, 255, 0.52);\n    float: left;\n    height: 50%;\n    width: 100%;\n    margin-bottom: -5em; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info p {\n      padding-top: 0.5em; }\n    .section-main .info .img-wrapper::before {\n      content: \"\";\n      position: absolute;\n      margin-left: -0.4em;\n      margin-top: 5em;\n      width: 10.2em;\n      height: 4.85em;\n      background-color: rgba(255, 255, 255, 0.46);\n      border-bottom-left-radius: 5em;\n      border-bottom-right-radius: 5em; }\n    .section-main .info img {\n      position: relative;\n      width: 9em;\n      border-radius: 50%;\n      border: 4px white solid; }\n    .section-main .info label {\n      font-weight: 100;\n      margin-bottom: -5px; }\n", ""]);
+	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.section-main {\n  background-color: grey;\n  background-image: url(" + __webpack_require__(217) + ");\n  background-size: cover;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .pixel-overlay {\n    background: transparent url(" + __webpack_require__(218) + ");\n    margin: 0px;\n    padding: 0px;\n    position: fixed;\n    left: 0px;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: rgba(255, 255, 255, 0.52);\n    float: left;\n    height: 50%;\n    width: 100%;\n    margin-bottom: -5em; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info p {\n      padding-top: 0.5em; }\n    .section-main .info .img-wrapper::before {\n      content: \"\";\n      position: absolute;\n      margin-left: -0.5em;\n      margin-top: 5em;\n      width: 9.8em;\n      height: 4.4em;\n      background-color: rgba(255, 255, 255, 0.46);\n      border-bottom-left-radius: 5em;\n      border-bottom-right-radius: 5em; }\n    .section-main .info img {\n      position: relative;\n      width: 9em;\n      border-radius: 50%; }\n    .section-main .info label {\n      font-weight: 100;\n      margin-bottom: -5px; }\n", ""]);
 
 	// exports
 
