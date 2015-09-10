@@ -58,13 +58,9 @@
 
 	var _jsLayout2 = _interopRequireDefault(_jsLayout);
 
-	var _jsGoogle_analyticsJs = __webpack_require__(220);
+	__webpack_require__(220);
 
-	var _jsGoogle_analyticsJs2 = _interopRequireDefault(_jsGoogle_analyticsJs);
-
-	__webpack_require__(221);
-
-	__webpack_require__(223);
+	__webpack_require__(222);
 
 	_react2["default"].render(_react2["default"].createElement(_jsLayout2["default"], null), document.body);
 
@@ -20948,29 +20944,10 @@
 /* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/maksymgerashchenko/Dropbox/My Own/mgerashchenko.net/node_modules/react-hot-loader/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/maksymgerashchenko/Dropbox/My Own/mgerashchenko.net/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-
-	'use strict';
-
-	(function (i, s, o, g, r, a, m) {
-	  i['ç'] = r;i[r] = i[r] || function () {
-	    (i[r].q = i[r].q || []).push(arguments);
-	  }, i[r].l = 1 * new Date();a = s.createElement(o), m = s.getElementsByTagName(o)[0];a.async = 1;a.src = g;m.parentNode.insertBefore(a, m);
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-	ga('create', 'UA-67430945-1', 'auto');
-	ga('send', 'pageview');
-
-	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/maksymgerashchenko/Dropbox/My Own/mgerashchenko.net/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "google_analytics.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-
-/***/ },
-/* 221 */
-/***/ function(module, exports, __webpack_require__) {
-
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(222);
+	var content = __webpack_require__(221);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(219)(content, {});
@@ -20990,7 +20967,7 @@
 	}
 
 /***/ },
-/* 222 */
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(216)();
@@ -21004,13 +20981,13 @@
 
 
 /***/ },
-/* 223 */
+/* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(224);
+	var content = __webpack_require__(223);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(219)(content, {});
@@ -21030,7 +21007,7 @@
 	}
 
 /***/ },
-/* 224 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(216)();
