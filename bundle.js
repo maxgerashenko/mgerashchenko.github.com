@@ -20586,7 +20586,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.social-links li {\n  display: inline-block; }\n\n.social-links a {\n  transition: color 0.5s;\n  margin-right: 1em;\n  padding: 0.5em 0.6em;\n  background-color: rgba(199, 193, 193, 0.439216);\n  position: relative;\n  border-radius: 50%;\n  color: #FFFFFF;\n  font-size: 16px; }\n  .social-links a:hover {\n    color: #112a3f; }\n\n.section-main {\n  background-color: grey;\n  background-image: url(" + __webpack_require__(228) + ");\n  background-size: cover;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .pixel-overlay {\n    background: transparent url(" + __webpack_require__(229) + ");\n    margin: 0px;\n    padding: 0px;\n    position: fixed;\n    left: 0px;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: rgba(255, 255, 255, 0.52);\n    float: left;\n    height: 50%;\n    width: 100%;\n    margin-bottom: -5em; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info p {\n      padding-top: 0.5em; }\n    .section-main .info .img-wrapper::before {\n      content: \"\";\n      position: absolute;\n      margin-left: -0.4em;\n      margin-top: 5em;\n      width: 10.2em;\n      height: 4.85em;\n      background-color: rgba(255, 255, 255, 0.46);\n      border-bottom-left-radius: 5em;\n      border-bottom-right-radius: 5em; }\n    .section-main .info img {\n      position: relative;\n      width: 9em;\n      border-radius: 50%;\n      border: 4px white solid; }\n    .section-main .info label {\n      font-weight: 100;\n      margin-bottom: -5px; }\n", ""]);
+	exports.push([module.id, "body {\n  color: #444444;\n  font-family: 'helvetica neue', helvetica, arial, sans-serif; }\n\nlabel {\n  font-size: 24px; }\n\n.text-center {\n  text-align: center; }\n\n.social-links li {\n  display: inline-block; }\n\n.social-links a {\n  transition: color 0.5s;\n  margin-right: 1em;\n  padding: 0.5em 0.6em;\n  background-color: rgba(199, 193, 193, 0.439216);\n  position: relative;\n  border-radius: 50%;\n  color: #FFFFFF;\n  font-size: 16px; }\n  .social-links a:hover {\n    color: #112a3f; }\n\n.section-main {\n  background-color: grey;\n  background-image: url(" + __webpack_require__(249) + ");\n  background-size: cover;\n  color: #fff;\n  font-size: 1em; }\n  .section-main .wrapper {\n    height: 100vh; }\n  .section-main .pixel-overlay {\n    background: transparent url(" + __webpack_require__(229) + ");\n    margin: 0px;\n    padding: 0px;\n    position: fixed;\n    left: 0px;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5; }\n  .section-main .container {\n    height: 50vh;\n    min-height: 200px; }\n  .section-main .floater {\n    background-color: rgba(255, 255, 255, 0.52);\n    float: left;\n    height: 50%;\n    width: 100%;\n    margin-bottom: -5em; }\n  .section-main .info {\n    clear: both;\n    height: 100px; }\n    .section-main .info p {\n      padding-top: 0.5em; }\n  .section-main .img-wrapper::before {\n    content: \"\";\n    position: absolute;\n    margin-left: -0.4em;\n    margin-top: 5em;\n    width: 10.2em;\n    height: 4.85em;\n    background-color: rgba(255, 255, 255, 0.46);\n    border-bottom-left-radius: 5em;\n    border-bottom-right-radius: 5em; }\n  .section-main img {\n    position: relative;\n    width: 9em;\n    border-radius: 50%;\n    border: 4px white solid; }\n  .section-main label {\n    font-weight: 100;\n    margin-bottom: -5px; }\n\n@media only screen and (max-width: 480px) {\n  .section-main .floater {\n    margin-bottom: -3em; }\n  .section-main .img-wrapper {\n    font-size: 0.4em; }\n    .section-main .img-wrapper::before {\n      width: 10.8em;\n      height: 5.3em; } }\n", ""]);
 
 	// exports
 
@@ -20648,12 +20648,7 @@
 
 
 /***/ },
-/* 228 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "aab59f9bc860a1e9b25f3f2a60fa209b.jpg"
-
-/***/ },
+/* 228 */,
 /* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -20902,9 +20897,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _imgPhotoJpg = __webpack_require__(232);
+	var _imgPhoto_smJpg = __webpack_require__(250);
 
-	var _imgPhotoJpg2 = _interopRequireDefault(_imgPhotoJpg);
+	var _imgPhoto_smJpg2 = _interopRequireDefault(_imgPhoto_smJpg);
 
 	exports["default"] = _react2["default"].createClass({
 	    displayName: "header",
@@ -20927,7 +20922,7 @@
 	                        _react2["default"].createElement(
 	                            "div",
 	                            { className: "img-wrapper" },
-	                            _react2["default"].createElement("img", { src: _imgPhotoJpg2["default"] })
+	                            _react2["default"].createElement("img", { src: _imgPhoto_smJpg2["default"] })
 	                        ),
 	                        _react2["default"].createElement(
 	                            "p",
@@ -20971,12 +20966,7 @@
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/maksymgerashchenko/Dropbox/My Own/mgerashchenko.net/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "header.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 232 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "62482511ab93b3d057d566a2c2689928.jpg"
-
-/***/ },
+/* 232 */,
 /* 233 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21400,6 +21390,18 @@
 
 	// exports
 
+
+/***/ },
+/* 249 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "0b1e9415451497eb23a15fa2d92707f9.jpg"
+
+/***/ },
+/* 250 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "94308c4648cc2a3189441b59056b44a1.jpg"
 
 /***/ }
 /******/ ]);
